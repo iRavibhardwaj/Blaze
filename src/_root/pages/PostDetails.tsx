@@ -5,7 +5,7 @@ import {
   useDeletePost,
   useGetPostById,
 } from "@/lib/react-query/queriesAndMutations";
-import { capitalizeName, formatDateString, multiFormatDateString } from "@/lib/utils";
+import { capitalizeName, multiFormatDateString } from "@/lib/utils";
 import { Loader } from "lucide-react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 
